@@ -1,0 +1,90 @@
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px, 20px;
+}
+
+.site-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar ul {
+display: flex;
+font-weight: bold;
+list-style-type: none;
+text-decoration: none;
+
+}
+
+.navbar ul li {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    font-size: 48px;
+}
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-height: 25%;
+    background-color: burlywood;
+    border-radius: 25px;
+    border: 2pt solid burlywood;
+    box-shadow: rgb(0, 0, 0, 0.4) 8px 10px 8px, rgb(0, 0, 0, 0.8) 10px 15px 10px;
+}
+
+.card-container {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    max-width: 400px;
+    max-height: 400px;
+    overflow: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+    border: grey 2px solid;
+}
+
+.featured {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: black;
+    font-size: 48px;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px, 20px;
+}
+
+.menu-card {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 800px;
+    max-height: 800px;
+    text-align: center;
+    border: beige solid 2pt;
+    border-radius: 10px;
+}
