@@ -56,10 +56,11 @@ a {
 }
 
 .card {
-    max-width: 400px;
+    max-width: 33%;
     max-height: 400px;
     overflow: auto;
     padding: 10px;
+    margin: 10px;
     text-align: center;
     border-radius: 25px;
     border: grey 2px solid;
@@ -86,5 +87,18 @@ a {
     max-height: 800px;
     text-align: center;
     border: beige solid 2pt;
+    border-radius: 10px;
+}
+
+.upcoming-events {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 300px;
     border-radius: 10px;
 }
