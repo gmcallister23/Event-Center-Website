@@ -134,3 +134,21 @@ form {
     border-width: 6px;
     border-color: bisque;
 }
+
+.location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-map {
+    display: flex;
+    justify-content: center;
+}
+
+.location-map img {
+    max-height: 800px;
+    max-width: 1200px;
+    border-radius: 10px;
+}
