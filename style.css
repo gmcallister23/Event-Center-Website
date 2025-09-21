@@ -84,13 +84,15 @@ a {
 .menu-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     padding: 15px, 20px;
 }
 
 .menu-card {
     display: flex;
     justify-content: space-evenly;
-    max-width: 800px;
+    justify-content: center;
+    min-width: 49%;
     max-height: 800px;
     text-align: center;
     border: beige solid 2pt;
@@ -109,6 +111,7 @@ a {
     max-height: 300px;
     border-radius: 10px;
 }
+
 form {
     display: flex;
     flex-direction: column;
