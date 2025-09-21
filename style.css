@@ -11,6 +11,7 @@
     max-width: 50px;
     max-height: 50px;
     background-color: olive;
+    border-radius: 10px;
 }
 
 .site-logo {
@@ -35,6 +36,11 @@ text-decoration: none;
 a {
     text-decoration: none;
     color: black;
+}
+
+.main-container {
+    background-color: blanchedalmond;
+    border-radius: 10px;
 }
 
 .hero {
@@ -74,6 +80,7 @@ a {
     text-align: center;
     border-radius: 25px;
     border: grey 2px solid;
+    background-color: beige;
 }
 
 .featured {
@@ -98,8 +105,9 @@ a {
     min-width: 49%;
     max-height: 800px;
     text-align: center;
-    border: beige solid 2pt;
+    border: bisque solid 2pt;
     border-radius: 10px;
+    background-color: beige;
 }
 
 .upcoming-events {
