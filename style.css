@@ -163,3 +163,23 @@ form {
     max-width: 1200px;
     border-radius: 10px;
 }
+
+.menu-table td {
+    border: solid 1pt black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    
+    
+}
+
+tr :nth-child(1) {
+    text-align: left;
+    
+}
+
+tr :nth-child(2) {
+    text-align: right;
+    
+}
+
