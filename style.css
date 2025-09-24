@@ -91,14 +91,9 @@ a {
     font-size: 48px;
 }
 
-.menu-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 15px, 20px;
-}
 
-.menu-card {
+
+/*.menu-card {
     display: flex;
     justify-content: space-evenly;
     justify-content: center;
@@ -108,7 +103,7 @@ a {
     border: bisque solid 2pt;
     border-radius: 10px;
     background-color: beige;
-}
+}*/
 
 .upcoming-events {
     display: flex;
@@ -164,22 +159,37 @@ form {
     border-radius: 10px;
 }
 
-.menu-table td {
-    border: solid 1pt black;
-    border-radius: 5px;
-    padding: 5px;
-    margin: 5px;
-    
-    
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px, 20px;
+}
+.menu-table {
+    width: 100%;
+    padding: 15px, 20px;
+    margin: 10px, 10px;
+    background-color: antiquewhite;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1)
 }
 
-tr :nth-child(1) {
-    text-align: left;
-    
+
+.menu-table thead th:first-child {
+    width: 25%;
 }
 
-tr :nth-child(2) {
+.menu-table thead th:nth-child(2) {
+    width: 55%;
+}
+
+.menu-table thead th:last-child {
+    width: 20%;
     text-align: right;
-    
 }
 
