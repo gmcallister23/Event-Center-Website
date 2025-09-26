@@ -159,17 +159,23 @@ form {
     border-radius: 10px;
 }
 
-.main-container {
-    max-width: 1200px;
+.main-container { /*don't mess with this*/
+    max-width: 100%;
     margin: 0 auto;
     padding: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     padding: 15px, 20px;
 }
+
+.menu-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .menu-table {
-    width: 100%;
+    min-width: 80%;
     padding: 15px, 20px;
     margin: 10px, 10px;
     background-color: antiquewhite;
@@ -182,14 +188,24 @@ form {
 
 .menu-table thead th:first-child {
     width: 25%;
+    text-align: left;
+    padding: 20px;
 }
 
 .menu-table thead th:nth-child(2) {
     width: 55%;
+    text-align: left;
+    padding: 20px;
 }
 
 .menu-table thead th:last-child {
     width: 20%;
     text-align: right;
+    padding: 20px;
 }
+
+.menu-table td {
+    padding: 20px;
+}
+
 
