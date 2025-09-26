@@ -172,6 +172,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .menu-table {
@@ -205,7 +206,22 @@ form {
 }
 
 .menu-table td {
+    border-bottom: 1pt solid lightgray;
     padding: 20px;
 }
 
+.menu-table th {
+    background-color: cornsilk;
+    border-bottom: 1pt solid lightgray;
+}
 
+.item-price {
+    text-align: right;
+}
+
+h2 {
+    border-bottom: solid 2pt slategray;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
