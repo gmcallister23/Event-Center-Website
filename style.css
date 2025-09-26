@@ -220,7 +220,7 @@ form {
     text-align: right;
 }
 
-h2 {
+.menu-section h2 {
     border-bottom: solid 2pt slategray;
     width: 80%;
     text-align: center;
