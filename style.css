@@ -83,6 +83,14 @@ a {
     background-color: beige;
 }
 
+.featured-button {
+    background-color: olive;
+    font-size: larger;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
 .featured {
     display: flex;
     justify-content: center;
