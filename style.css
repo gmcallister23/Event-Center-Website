@@ -1,3 +1,17 @@
+
+.main-container { /*don't mess with this*/
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main-container {
+    background-color: blanchedalmond;
+    border-radius: 10px;
+}
 .site-header {
     display: flex;
     justify-content: space-between;
@@ -45,11 +59,6 @@ text-decoration: none;
 a {
     text-decoration: none;
     color: black;
-}
-
-.main-container {
-    background-color: blanchedalmond;
-    border-radius: 10px;
 }
 
 .hero {
@@ -181,24 +190,22 @@ form {
 }
 
 .location-map {
-    display: flex;
-    justify-content: center;
-}
-
-.location-map img {
-    max-height: 800px;
-    max-width: 1200px;
-    border-radius: 10px;
-}
-
-.main-container { /*don't mess with this*/
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 10px;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.location-map img{
+    min-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
+
+
 
 .menu-section {
     display: flex;
