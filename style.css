@@ -50,19 +50,24 @@ a {
 }
 
 .hero img {
-    border-radius: 10px;
+    border-radius: 25px;
+    border: 1pt solid black;
     min-width: 100%;
     max-height: 600px;
 }
 
 .introduction {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: 100%;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
     max-height: 25%;
     background-color: burlywood;
     border-radius: 25px;
-    border: 2pt solid burlywood;
+    border: 2pt solid slategray;
+    padding: 10px;
     box-shadow: rgb(0, 0, 0, 0.4) 8px 10px 8px, rgb(0, 0, 0, 0.8) 10px 15px 10px;
 }
 
