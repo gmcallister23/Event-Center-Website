@@ -211,19 +211,19 @@ form {
 
 
 .menu-table thead th:first-child {
-    width: 25%;
+    min-width: 25%;
     text-align: left;
     padding: 20px;
 }
 
 .menu-table thead th:nth-child(2) {
-    width: 55%;
+    min-width: 55%;
     text-align: left;
     padding: 20px;
 }
 
 .menu-table thead th:last-child {
-    width: 20%;
+    min-width: 20%;
     text-align: right;
     padding: 20px;
 }
