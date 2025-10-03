@@ -141,16 +141,19 @@ a {
 form {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    max-width: 50%;
     background-color: bisque;
     padding: 20px;
     border-radius: 25px;
     color: white;
+    border: 2pt solid black;
 }
 
 .form-container {
+    width: 100%;
     display: flex;
     justify-content: center;
+    
 }
 
 .button {
